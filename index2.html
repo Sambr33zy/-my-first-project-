@@ -95,6 +95,32 @@
 	</style>
 </head>
 <body>
+    <h2>My Practice Form</h2>
+  <form action="/submit" method="post">
+    <!-- Text input -->
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br><br>
+
+    <!-- Email input -->
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+
+    <!-- Radio buttons -->
+    <p>Choose your favorite language:</p>
+    <input type="radio" id="html" name="language" value="HTML">
+    <label for="html">HTML</label><br>
+    <input type="radio" id="css" name="language" value="CSS">
+    <label for="css">CSS</label><br>
+    <input type="radio" id="js" name="language" value="JavaScript">
+    <label for="js">JavaScript</label><br><br>
+
+    <!-- Checkbox -->
+    <input type="checkbox" id="subscribe" name="subscribe">
+    <label for="subscribe">Subscribe to newsletter</label><br><br>
+
+    <!-- Submit button -->
+    <input type="submit" value="Submit">
+  </form>
 	<header>
 		<nav aria-label="Main navigation">
 			<h1>My Web Project</h1>
